@@ -33,9 +33,9 @@ An Interactive Mobile version of my Resume.
 
 - I would had added more interactive animations if I had more time.
 
-## Demo
+## Link to App
 
-Insert gif or link to demo
+Download the app [here](www.samshotmedia.cf)
 
 
 ## Screenshots
@@ -83,3 +83,12 @@ Run the App
 
 For support, email samshotmedai01@gmail.com 
 
+
+## Challenges I faced
+
+- Making the App multi language : I solve this challenge by using easy localization package to implement multi language support smoothly
+- Making the App Responsive : I solved this challenge by making use of 
+```
+  MediaQuery.of(context).size
+```
+ To get device width and render the UI in respect to the device's width
