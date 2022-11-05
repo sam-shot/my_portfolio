@@ -124,7 +124,7 @@ class _MyAppState extends State<MyApp> {
           centerTitle: true,
           elevation: 1,
           title: Text(
-            "title".tr(),
+            "My Resume",
             style: TextStyle(fontFamily: "Poppins"),
           ),
         ),
