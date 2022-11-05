@@ -11,17 +11,16 @@ An Interactive Mobile version of my Resume.
 
 ## Author
 
-- [@sam-shot](https://www.github.com/sam-shot)
+- [Samuel Ademujimi](https://www.github.com/sam-shot)
 
 
 ## Libraries I used
 
- - [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
-    : I used the package to implement the splash Sceen of the App
+ 
  - [url_launcher](https://pub.dev/packages/url_launcher)
     : I used this package to implement browser support to the App
-
-
+- [easy_localization](https://pub.dev/packages/easy_localization)
+    : I used this package to implement multi language support to the App.
 ## Features
 
 - Dark/Light mode toggle with System theme detection Integration
@@ -29,13 +28,30 @@ An Interactive Mobile version of my Resume.
 - Multilingual Support with Language auto detection
 - Browser Support to Open my Social Links
 
+## Code Base 
+
+- lib
+  : This folder contains the files usef for the projects
+   
+- lib/ui : This contains screens folder 
+- lib/ui/screens : This contains each page of the App
+- lib/provider: This contains Theme data information
+- assets : This folder contains assets for the App
+- assets/images : This folder Contains image assets
+- assets/fonts : This folder contains fonts assets
+- assets/translations : This folder contains Multi Language assets.
 ## Features I would have Added 
 
 - I would had added more interactive animations if I had more time.
 
 ## Link to App
 
-Download the app [here](www.samshotmedia.cf)
+Download App [here](https://drive.google.com/file/d/1s9g8d_YDaUyBbG6nDwFUsz7wLrSTeqbP/view?usp=sharing)
+
+
+## Link to App on Appetize.io
+
+Open [here](https://appetize.io/app/h6bmr3pqaavvry3c7swvyilqyq)
 
 
 ## Screenshots
@@ -53,7 +69,7 @@ Download the app [here](www.samshotmedia.cf)
 
 Clone the project.
 - Make sure you have flutter installed.
-- If you don't view [flutter's website](https://flutter.dev/), follow the instructions and install it.
+- If you don't have flutter installed, install it [here](https://flutter.dev/).
 
 
 ```bash
@@ -79,16 +95,16 @@ Run the App
 ```
 
 
-## Support
-
-For support, email samshotmedai01@gmail.com 
-
-
 ## Challenges I faced
 
 - Making the App multi language : I solve this challenge by using easy localization package to implement multi language support smoothly
 - Making the App Responsive : I solved this challenge by making use of 
 ```
   MediaQuery.of(context).size
-```
- To get device width and render the UI in respect to the device's width
+``` 
+to get device width and render the UI in respect to the device's width
+
+## Support
+
+For support, email samshotmedai01@gmail.com 
+
