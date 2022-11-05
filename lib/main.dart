@@ -47,7 +47,6 @@ class _MyAppState extends State<MyApp> {
       themeMode: currentTheme.currentTheme(),
       useInheritedMediaQuery: true,
       locale: context.locale,
-      builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       theme: MyTheme.lightTheme,
       darkTheme: MyTheme.darkTheme,
