@@ -96,7 +96,7 @@ class _MyAppState extends State<MyApp> {
                   padding: const EdgeInsets.all(8.0),
                   child: DropdownButton<String>(
                     value: dropdownValue,
-                    icon: const Icon(Icons.arrow_downward),
+                    icon: const Icon(Icons.keyboard_arrow_down_rounded),
                     elevation: 15,
                     underline: Container(
                       width: 3,
