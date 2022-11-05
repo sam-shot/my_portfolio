@@ -4,6 +4,13 @@
 An Interactive Mobile version of my Resume.
 
 
+## Features
+
+- Dark/Light mode toggle with System theme detection Integration
+- Responsive
+- Multilingual Support with Language auto detection
+- Browser Support to Open my Social Links
+
 
 
 ![](https://img.shields.io/badge/version-1.o-brightgreen)
@@ -21,13 +28,6 @@ An Interactive Mobile version of my Resume.
     : I used this package to implement browser support to the App
 - [easy_localization](https://pub.dev/packages/easy_localization)
     : I used this package to implement multi language support to the App.
-## Features
-
-- Dark/Light mode toggle with System theme detection Integration
-- Responsive
-- Multilingual Support with Language auto detection
-- Browser Support to Open my Social Links
-
 ## Code Base 
 
 - lib
