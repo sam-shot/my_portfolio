@@ -12,7 +12,6 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  device_preview: ^1.1.0
   url_launcher: ^6.1.6
   easy_localization: ^3.0.1
   

@@ -1,8 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:device_preview/device_preview.dart';
 import 'provider/theme_data.dart';
 import 'provider/theme_provider.dart';
 import 'ui/screens/home_page.dart';
@@ -18,10 +16,8 @@ Future<void> main() async {
   runApp(EasyLocalization(
     supportedLocales: [Locale('en'), Locale('fr'), Locale('es'), Locale('de')],
     path: 'assets/translations',
-    child: DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (context) => MyApp(), // Wrap your app
-    ),
+    child:  MyApp(), // Wrap your app
+    
   ));
 }
 
