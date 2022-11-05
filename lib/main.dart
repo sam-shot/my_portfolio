@@ -103,7 +103,7 @@ class _MyAppState extends State<MyApp> {
                       height: 0,
                       color: Color.fromARGB(0, 124, 77, 255),
                     ),
-                    onChanged: (String? value) {
+                    onChanged: (String? value) async{
                       // This is called when the user selects an item.
                       setState(() {
                         dropdownValue = value!;
